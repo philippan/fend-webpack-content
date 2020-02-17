@@ -13,8 +13,8 @@ app.get('/', function (req, res) {
 })
 
 // designates what port the app will listen to for incoming requests
-app.listen(8080, function () {
-    console.log('Example app listening on port 8080!')
+app.listen(1234, function () {
+    console.log('You got served on port 1234!')
 })
 
 app.get('/test', function (req, res) {
