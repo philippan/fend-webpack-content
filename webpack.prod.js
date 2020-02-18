@@ -2,7 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const json = require('./src/client/js/file.json');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
-// const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 
 
