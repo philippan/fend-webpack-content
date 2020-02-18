@@ -13,8 +13,8 @@ app.get('/', function (req, res) {
 })
 
 // designates what port the app will listen to for incoming requests
-app.listen(3000, function () {
-    console.log('You got served on port 3000, bitch!')
+app.listen(3001, function () {
+    console.log('You got expressed served on port 3001, bitch!')
 })
 
 app.get('/test', function (req, res) {

@@ -10,6 +10,15 @@ module.exports = {
 
         mode: 'development',
         entry: './src/client/index.js',
+        output: {
+                libraryTarget: 'var',
+                library: 'Client',
+        },
+         devServer: {
+                contentBase: path.join(__dirname, 'dist'),
+                compress: true,
+                port: 8000
+        },
         module: {
             
             rules: [
@@ -48,7 +57,6 @@ module.exports = {
                         'sass-loader',
                         ]
                     }
-
             ]
 
         },
@@ -71,5 +79,6 @@ module.exports = {
 
             })
         ]
+
 
 };
